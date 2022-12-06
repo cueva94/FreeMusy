@@ -1,0 +1,20 @@
+<div class="clearfix"></div>
+<ul class="albums-list" *ngIf="identity">
+	<li *ngFor="let album of albums" class="col-lg-3 albums-item">
+       
+        <div class="albums-imagen">
+
+            <img src="{{ url + 'obtener-imagen-album/' + album.imagen }}"/>
+
+
+            
+         </div>
+
+         <div class="albums-nombre">
+            <a [routerLink]="['/album', album._id]">
+                {{album.title}} 
+            </a>
+
+        </div>
+    </li>
+</ul>
