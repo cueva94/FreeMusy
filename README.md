@@ -1,6 +1,5 @@
 # FreeMusy
-Es una API Rest se ha desarrollado mediante NodeJS y 
-Angular utilizando leguaje JavaScript.
+Es una API Rest se ha desarrollado mediante NodeJS y Angular.
 
 MANUAL DE INSTALACIÓN 
 
